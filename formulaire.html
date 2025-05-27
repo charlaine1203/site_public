@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>etudiant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h3>
+  <form action="traitement.php" method="post">
+    <label for="nom">Nom:</label>
+    <input type="text" id="Nom" name="Nom" required><br><br>
+
+    <label for="prenom">Prenom:</label>
+    <input type="text" id="Prenom" name="Prenom" required ><br><br>
+      
+    <label for="number">Numero de Telephone:</label>
+    <input type="tel" name="number" id="number" required><br><br>
+
+    <label for="Matricule">Matricule:</label>
+    <input type="text" name="Matricule" id="Matricule" class="matricule-container" required><br><br>
+
+    <label for="date ">date de naissance:</label>
+    <input type="date" id="date" name="date de naissance" required><br><br>
+
+    <label for="nationalite">nationalite:</label>
+    <select name="choix" id="choix" required>
+      <option value="option 1">Cameroun</option>
+      <option value="option 3">coree du sud</option>
+      <option value="option 4">Thailande</option>
+      <option value="option 5">Japon</option>
+      <option value="option 6">Nigeria</option>
+      <option value="option 7">USA</option>
+      <option value="option 8">Canada</option>
+      <option value="option 9">Allemagne</option>
+    </select><br><br>
+
+   <label for="sexe">Sexe:</label>
+   <input type="radio" id="Sexe" name="sexe">Feminin
+   <input type="radio" id="sexe" name="sexe">Masculin <br><br>
+
+   <label for="email">Email:</label>
+   <input type="email" id="email" name="email"><br><br>
+
+   <label for="message">Message(facultatif):</label>
+   <textarea name="message" id="message" rows="" cols=""></textarea><br><br>
+
+   <label for="choix"> Filiere:</label>
+   <select name="choix" id="choix">
+     <option value="INF">Informatique</option>
+     <option value="Maths">Mathematiques</option>
+     <option value="INF">Biologie animale</option>
+     <option value="INF">Biologie vegetale</option>
+     <option value="INF">Physique</option>
+     <option value="INF">Droit</option>
+     <option value="INF">Science Humaine</option>
+     <option value="INF">Management</option>
+    </select><br><br>
+
+    <label for="send">Envoyer:</label>
+    <input type="submit" name="send" id="send"><br><br>
+
+    <label for="reset">Anuler:</label>
+    <input type="reset" name="reset" id="reset"><br><br>
+
+  </form>
+  </h3>
+  <footer>
+    <h2> &copy;LEUCHI WANSI BELVA CHARLAINE TOUT DROIT D'AUTEUR RESERVES</h2>
+  </footer>
+</body>
+</html>

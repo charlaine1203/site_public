@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(10deg,#74b9ff,#a29bfe,#6c5ce7,#a29b,#747474);
+    color: rgb(102, 89, 4);
+}
+body footer {
+    background-color:black;
+    height: auto;
+}
+input{
+    display: inline-block;
+    height: max-content;
+}
